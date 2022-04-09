@@ -1,0 +1,6 @@
+.app__container {
+  width: 100%;
+  min-height: 100vh;
+  background-color: var(--clr-bg);
+  font-family: 'Inter';
+}

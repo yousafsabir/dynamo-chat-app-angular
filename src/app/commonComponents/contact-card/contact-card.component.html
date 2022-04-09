@@ -1,0 +1,20 @@
+<div class="contact__card" [ngStyle]="{ 'background-color': bgcolor }">
+  <div class="header">
+    <h2>{{ name }}</h2>
+    <p class="date">{{ date }}</p>
+  </div>
+  <div class="unread-div">
+    <div></div>
+    <p class="unread" [ngStyle]="{ display: unreaddisplay }">unread</p>
+  </div>
+  <div class="message">
+    <p>{{ msg }}</p>
+  </div>
+  <div class="unread-div">
+    <div></div>
+    <i
+      class="fa-regular fa-trash-can trash-icon"
+      [ngStyle]="{ display: bindisplay }"
+    ></i>
+  </div>
+</div>

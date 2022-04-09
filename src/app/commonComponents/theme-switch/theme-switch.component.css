@@ -1,0 +1,32 @@
+.theme-toggle {
+  width: 85px;
+  height: 30px;
+  margin-bottom: 1rem;
+  background-color: var(--clr-toggle-bg);
+  border-radius: 30px;
+  -webkit-border-radius: 30px;
+  -moz-border-radius: 30px;
+  -ms-border-radius: 30px;
+  -o-border-radius: 30px;
+  /* layout */
+  display: flex;
+  justify-content: space-between;
+  cursor: pointer;
+}
+.toggle {
+  width: 42px;
+  height: 30px;
+  background-color: var(--clr-black);
+  border-radius: 30px;
+  -webkit-border-radius: 30px;
+  -moz-border-radius: 30px;
+  -ms-border-radius: 30px;
+  -o-border-radius: 30px;
+  /* layout */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.toggle i {
+  color: var(--clr-white);
+}

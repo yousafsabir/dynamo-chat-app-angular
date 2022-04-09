@@ -1,0 +1,53 @@
+.contact__card {
+  padding: 16px 8px 26px 18px;
+  display: flex;
+  flex-direction: column;
+}
+.header,
+.unread-div {
+  display: flex;
+  justify-content: space-between;
+}
+.header h2 {
+  font-size: var(--fs-medium);
+  line-height: var(--lh-medium);
+}
+.date,
+.unread {
+  font-size: var(--fs-small);
+  line-height: var(--lh-small);
+}
+.unread {
+  font-size: var(--fs-small);
+  line-height: var(--lh-small);
+  padding: 2px 4px;
+  background-color: red;
+  color: #fff;
+  border-radius: 10px;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px;
+  -o-border-radius: 10px;
+}
+.message {
+  padding: 10px 0;
+}
+.message p {
+  font-size: var(--fs-small);
+  line-height: var(--lh-small);
+}
+i {
+  font-size: 0.9rem;
+  line-height: var(--lh-small);
+  color: red;
+}
+.trash-icon {
+  cursor: pointer;
+}
+.trash-icon:active {
+  transform: scale(0.9);
+  -webkit-transform: scale(0.9);
+  -moz-transform: scale(0.9);
+  -ms-transform: scale(0.9);
+  -o-transform: scale(0.9);
+}

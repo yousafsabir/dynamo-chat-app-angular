@@ -1,0 +1,23 @@
+.body__container {
+  padding: 50px 135px 25px 30px;
+}
+header {
+  display: flex;
+  justify-content: space-between;
+}
+header h1 {
+  --fs-large: 2.75rem;
+  --lh-large: 3.3125rem;
+}
+header p,
+.message {
+  --fs-medium: 1.25rem;
+  --lh-medium: 1.5rem;
+  font-weight: 600;
+}
+.message {
+  margin: 26px 16px 64px 16px;
+}
+.msg {
+  margin-left: 95px;
+}

@@ -1,0 +1,23 @@
+.margin-top {
+  width: var(--main-width);
+  height: var(--main-margin-top);
+}
+.main__container {
+  width: var(--main-width);
+  min-height: 800px;
+  margin: 0 auto;
+  background-color: var(--clr-white);
+  border-radius: var(--main-border-radius);
+  -webkit-border-radius: var(--main-border-radius);
+  -moz-border-radius: var(--main-border-radius);
+  -ms-border-radius: var(--main-border-radius);
+  -o-border-radius: var(--main-border-radius);
+  box-shadow: 0 3px 10px rgba(0, 0, 0, 0.3);
+  /* layout */
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  grid-template-rows: 1fr;
+}
+.body {
+  grid-column: 2 / -1;
+}
