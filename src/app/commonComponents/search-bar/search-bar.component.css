@@ -1,18 +1,23 @@
 .searchbar {
   width: 100%;
-}
-.searchbar input {
-  width: 100%;
-  padding: 1rem 0.25rem;
+  padding: 1rem 1rem;
   background-color: var(--clr-search-bg);
-  background-image: url(./search.svg);
-  background-repeat: no-repeat;
-  background-position: 10px center;
-  border: none;
   border-radius: 2rem;
   -webkit-border-radius: 2rem;
   -moz-border-radius: 2rem;
   -ms-border-radius: 2rem;
   -o-border-radius: 2rem;
-  text-indent: 45px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.searchbar input {
+  width: 80%;
+  outline: none;
+  background-color: var(--clr-search-bg);
+  border: none;
+}
+.searchbar input::placeholder {
+  font-size: var(--fs-small);
+  line-height: var(--lh-small);
 }
